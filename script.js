@@ -85,4 +85,4 @@ function gnirts(string) {
   return result;
 }
 //Retire comentário do código a seguir para testar
-console.log('Retorno função gnirts:', gnirts(frase));
+// console.log('Retorno função gnirts:', gnirts(frase));
