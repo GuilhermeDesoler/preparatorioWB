@@ -49,10 +49,11 @@ console.log('Retorno função diff:', diff(numeros));
 ////////////
 
 function stringImpar(string) {
+  let strToarray = string.split(" ");
   let impares = [];
-  for(let i = 0; i < string.lenght; i++){
-    if (string.lenght[i] % 2 !== 0){
-      impares.push(string[i])
+  for(let i = 0; i < strToarray.lenght; i++){
+    if (strToarray.lenght[i] % 2 !== 0){
+      impares.push(strToarray[i])
     }
   }
   return impares
@@ -65,9 +66,10 @@ console.log('Retorno função stringImpar:',stringImpar(frase));
 ////////////
 
 function stringComp(string) {
+    strToarr = string.split(" ");
   let comprimento = [];
-  for(let i = 0; i < string.lenght; i++){
-    comprimento.push(string.lenght[i])
+  for(let i = 0; i < strToarr.lenght; i++){
+    comprimento.push(strToarr.lenght[i])
     }
     return comprimento
   }
@@ -80,8 +82,10 @@ const frase = "O Carlos trollou e agora terei que pintar o cabelo";
 ////////////
 
 function gnirts(string) {
-  // Adicione seu código
-  string.split('').reverse().join('')
+ let newstring = "";
+ for (let i = 0; i < string.lenght; i++){
+   newstring = newstring + string[string.lenght - 1 - i];
+ } 
 }
 //Retire comentário do código a seguir para testar
 //console.log('Retorno função gnirts:', gnirts(frase));
