@@ -1,1 +1,46 @@
-,,,,,
+for(i),i < array.lenght,[i] % 2 === 0,impares,pares,soma,return
+0,true,false,3,-,-,-
+1,true,true,-,4,-,-
+2,"true ",false,15,-,-,-
+3,true,true,-,24,-,-
+4,true,false,69,-,-,-
+5,false,-,69,24,-,-
+5,false,-,69,24,93,93
+5,false,-,69,24,93,93
+TESTE 2 ACIMA,,,,,,
+,,,,,,
+for(i),i < array.lenght,resultado,return,,,
+0,true,1,-,,,
+1,true,3,-,,,
+2,true,8,-,,,
+3,true,20,-,,,
+4,true,43,-,,,
+5,false,43,-,,,
+5,false,43,43,,,
+,,,,,,
+TESTE 1 ACIMA,,,,,,
+,,,,,,
+for(i),i < sting.lenght,[i] % 2 !== 0,impares,return,,
+0,true,true,[1],-,,
+1,true,"false ",-,-,,
+2,true,true,"[1, 5]",-,,
+3,true,false,-,-,,
+4,true,true,"[1, 5, 23]",,,
+5,false,-,"[1, 5, 23]",,,
+5,"false ",-,"[1, 5, 23]","[1, 5, 23]",,
+,,,,,,
+TESTE 3 ACIMA,,,,,,
+,,,,,,
+for (i),i < string.lenght,comprimento,return,,,
+0,true,[1],-,,,
+1,true,"[1, 5]",-,,,
+2,true,"[1, 5, 7]",,,,
+3,true,"[1, 5, 7, 1]",,,,
+4,true,"[1, 5, 7, 1, 5]",,,,
+5,true,"[1, 5, 7, 1, 5, 5]",,,,
+6,true,"[1, 5, 7, 1, 5, 5, 3]",,,,
+,,"[1, 5, 7, 1, 5, 5, 3, 5]",,,,
+,,"[1, 5, 7, 1, 5, 5, 3, 5, 1]",,,,
+,,"[1, 5, 7, 1, 5, 5, 3, 5, 1, 6]",,,,
+,,,,,,
+TESTE 4 ACIMA,,,,,,
